@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .container {
+        margin:  0 auto;
+        display: flex;
+        flex-direction: column;
+        width: 21cm;
+        height: 30cm;
+      }
+      .Details {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        padding: 10px 20px 10px 30px;
+        background-color: #5a5e5f;
+      }
+      .Details h1{
+        padding-top: 10px;
+        color: white;
+      }
+      .Details ul {
+        color: white;
+        list-style: none;
+        text-align: end;
+      }
+      .main {
+        display: grid;
+        grid-template-columns: 14cm auto;
+        grid-row: auto 5cm;
+        padding: 20px 30px 10px 30px;
+        background-color: #eff2f4;
+      }
+      h2 {
+        margin: 0;
+      }
+      p{
+        text-align: justify;
+      }
+      .Experience li{
+        text-align: justify;
+      }
+      .Left {
+        grid-column: 1;
+      }
+      .Right {
+        grid-area: 1/2/3;
+      }
+      .Skills h2{
+        margin-left: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="Details">
+        <h1>Louie Money</h1>
+        <ul>
+          <li>07478754903</li>
+          <li>Louiemoney2001@gmail.com</li>
+          <li>Norwich</li>
+          <li>Norfolk</li>
+        </ul>
+      </div>
+      <div class="main">
+        <div class="Intro Left">
+          <h2>Introduction</h2>
+          <p>
+            An aspiring game developer with a degree in Games Development form Norwich University of the Arts with proficiency in C++, Java, HTML, and Blueprint, I have worked on projects creating and designing website. I also have worked in game jams with Unreal Engine where C++ and Blueprint were used. 
+          </p>
+        </div>
+        <div class="Education Left">
+          <h2>Education</h2>
+          <h3>Norwich University of the Arts</h3>
+          <h4>BSc Games Development</h4>
+          <p>2020-2023</p>
+          <p>
+            The course was focused on learning the mechanics of how games work on a technical level, particularly on OpenGL, Bullet Physics, and Ogre3D to create our own graphics engine. In addition, 2D and 3D games were created as assignments with an aim to make mechanics that allowed people with accessibility issues to be able to understand the game as much as people without. 
+          </p>
+        </div>
+        <div class="Projects Left">
+          <h2>Projects</h2>
+          <h3>University Game Jam 2021 & 2022</h3>
+          <h4>Gameplay Programmer</h4>
+          <ul>
+            <li>
+              Collaborating in a team of 4 in creating a small game in a week
+            </li>
+            <li>My main responsibility was project planning and scope management. </li>
+            <li>I developed the main concept and characters for the game. </li>
+            <li>In addition, I created minigames as well as the main gameplay using Unreal Engine and C++. </li>
+          </ul>
+        </div>
+        <div class="Experience Left">
+          <h2>Work Experience</h2>
+          <h3>Haggle Restaurant - July 2023 - Present</h3>
+          <h4>Team captain</h4>
+          <ul>
+            <li>Being the main coordinator of ensuring a smooth service flow while managing a team of 5 members on daily operations. </li>
+            <li>Effectively collaborating with both Front and Back of house with clear and result-oriented communication. </li>
+            <li>Being a team player, supporting other roles, especially during intense peak hours.</li>
+            <li>Engaging with customers in a professional manner and building a positive relationship between clients and the business. </li>
+            <li>Dealing with requests and complaints as well as offering solutions based on customers needs and the business capacity with excellent customer service.</li>
+            <li>As a result, I was promoted from Team Member to Team Captain after one year.</li>
+          </ul>
+        </div>
+        <div class="Skills Right">
+          <h2>Skills</h2>
+          <ul>
+            <li>
+              Proficient in:<ul>
+                <li>C++(Intermediate)</li>
+                <li>python(Advanced)</li>
+                <li>html(Advanced)</li>
+                <li>C#(Intermediate)</li>
+              </ul>
+            </li>
+            <li>Familiar with Java</li>
+            <li>Games development in Unreal using Blueprint and C++</li>
+            <li>Games development in Unity using C#</li>
+            <li>Creating and designing websites using html, CSS and bootstrap</li>
+            <li>Creative story telling</li>
+            <li>Time Management and Organisation</li>
+            <li>Leadership and Independence </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
